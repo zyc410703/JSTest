@@ -24,7 +24,6 @@ defineClass('ViewController', {
         return true;
     },
     tableView_commitEditingStyle_forRowAtIndexPath: function(tableView, editingStyle, indexPath) {
-        
-        
+    
     },
 })
