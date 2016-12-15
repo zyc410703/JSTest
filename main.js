@@ -23,4 +23,8 @@ defineClass('ViewController', {
     tableView_canEditRowAtIndexPath: function(tableView, indexPath) {
         return true;
     },
+    tableView_commitEditingStyle_forRowAtIndexPath: function(tableView, editingStyle, indexPath) {
+        
+        
+    },
 })
