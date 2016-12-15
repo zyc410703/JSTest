@@ -20,4 +20,7 @@ defineClass('ViewController', {
     tableView_heightForRowAtIndexPath: function(tableView, indexPath) {
         return 64;
     },
+    tableView_canEditRowAtIndexPath: function(tableView, indexPath) {
+        return true;
+    },
 })
