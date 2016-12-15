@@ -3,7 +3,7 @@ require('UITableViewCell');
 defineClass('ViewController', {
     viewDidLoad: function() {
         self.ORIGviewDidLoad();
-            var hello = self.arr().toJS();
+            var hello = self.data().toJS();
             hello = [1,2,3,4];
             console.log(hello[2]);
     },
